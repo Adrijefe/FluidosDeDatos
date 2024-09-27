@@ -1,0 +1,1 @@
+Les classes de fitxers en java són un jaleo
