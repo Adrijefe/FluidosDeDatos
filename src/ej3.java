@@ -7,7 +7,7 @@ public class ej3 {
         String text = "Les classes de fitxers en java són un jaleo";
 
         try {
-            OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("fitxer3.txt"));
+            OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("fitxero3.txt"));
             writer.write(text);
             writer.close();
         } catch (IOException e) {

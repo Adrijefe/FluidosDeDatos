@@ -8,7 +8,7 @@ public class ej4 {
         String texto = "Les classes de fitxers en java són un jaleo";
 
         try {
-            BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("fitxer4.txt")));
+            BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("fitxero4.txt")));
             bufferedWriter.write(texto);
             bufferedWriter.close();
         } catch (IOException e) {

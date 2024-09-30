@@ -7,7 +7,7 @@ public class ej5 {
         String texto = "Les classes de fitxers en java són un jaleo";
 
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("fitxer5.txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("fitxero5.txt"));
             writer.write(texto);
             writer.close();
         } catch (IOException e) {

@@ -7,7 +7,7 @@ public class ej1 {
         String texto = "Les classes de fitxers en java són un jaleo";
 
         try {
-            PrintWriter writer = new PrintWriter(new File("fitxer1.txt"));
+            PrintWriter writer = new PrintWriter(new File("fitxero1.txt"));
             writer.println(texto);
             writer.close();
         } catch (IOException e) {

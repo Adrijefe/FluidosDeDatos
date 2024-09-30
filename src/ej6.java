@@ -7,7 +7,7 @@ public class ej6 {
         String texto = "Les classes de fitxers en java són un jaleo";
 
         try {
-            PrintStream printStream = new PrintStream(new FileOutputStream("fitxer6.txt"));
+            PrintStream printStream = new PrintStream(new FileOutputStream("fitxero6.txt"));
             printStream.println(texto);
             printStream.close();
         } catch (IOException e) {
